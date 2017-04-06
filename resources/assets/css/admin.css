@@ -1,0 +1,31 @@
+.list-group .glyphicon-remove { float: right; }
+.list-group .glyphicon-remove:hover { cursor: pointer; }
+.list-group .list-group-item:hover { color:#555; background-color:#f5f5f5; }
+
+.ui-autocomplete {
+  max-height: 200px;
+  overflow-y: auto;
+  /* prevent horizontal scrollbar */
+  overflow-x: hidden;
+}
+/* IE 6 doesn't support max-height
+ * we use height instead, but this forces the menu to always be this tall
+ */
+* html .ui-autocomplete {
+  height: 200px;
+}
+
+.dashboard-stat-section {
+  margin: 36px 0;
+}
+.status.need-verification {
+  color: green;
+  font-weight: bold;
+}
+.status.blocked {
+  color: red;
+}
+div.page-title {
+  min-height: 65px;
+  height: auto;
+}

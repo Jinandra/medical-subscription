@@ -1,0 +1,17 @@
+/upload/post
+/vendor
+vendor/*
+/node_modules
+Homestead.yaml
+Homestead.json
+.env
+composer.phar
+composer.lock
+tmp/*
+/uploads
+/nbproject
+.idea
+.phpintel
+enfolinkDB.php
+*.swp
+*.swo
